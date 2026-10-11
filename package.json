@@ -1,0 +1,7 @@
+{
+  "name": "survey-analytics-app",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["client", "server"],
+  "scripts": {"dev:server":"npm run dev -w server", "dev:client":"npm run dev -w client", "build":"npm run build -w client", "test":"npm test -w server"}
+}
